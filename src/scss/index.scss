@@ -1,1 +1,9 @@
 // @import '~bootstrap/scss/bootstrap';
+
+//fonts
+
+@import "./_fonts";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
