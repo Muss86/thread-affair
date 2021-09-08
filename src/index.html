@@ -11,8 +11,26 @@
 </head>
 
 <body>
-<h1>Hello World</h1>
-  
+
+  <header class="header container">
+    <% include html/header/header-main.html %>
+    <% include html/header/header-nav.html %>
+  </header>
+
+  <main class="content">
+    <header class="content-header">
+      <% include html/home/home-banner.html %>
+    </header>
+
+    <main class="content-main">
+      <% include html/home/home-main.html %>
+    </main>
+  </main>
+
+  <footer class="footer">
+    <% include html/footer/footer-main.html %>
+    <% include html/footer/footer-secondary.html %>
+  </footer>
 </body>
 
 </html>
