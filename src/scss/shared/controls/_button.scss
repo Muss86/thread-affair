@@ -1,0 +1,35 @@
+.button {
+  background-color: $brand-primary;
+  text-decoration: none;
+  color: $white;
+  padding: 10px 35px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 24px;
+  border: 1px solid $brand-primary;
+  transition: color 0.2s linear, background-color 0.2s linear;
+
+  // .button:hover
+  &:hover {
+    color: $brand-primary;
+    background-color: transparent;
+  }
+
+  // .button.button-secondary
+  &.button-secondary {
+    background-color: $brand-secondary;
+    border-color: $brand-secondary;
+  }
+
+  // .button.button-secondary:hover
+  &:hover {
+    color: $brand-secondary;
+    background-color: transparent;
+  }
+
+  // .button.button-large
+  &.button-large {
+    padding: 18px 45px;
+  }
+}

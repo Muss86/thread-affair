@@ -13,9 +13,18 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import './../../node_modules/bootstrap/scss/bootstrap-utilities.scss';
 @import './../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 
+// reset
+@import './reset';
+
 //fonts
 
-@import './_fonts';
+@import './fonts';
+
+// variables
+@import './variables';
+
+// start project
+@import './shared/index';
 
 body {
   font-family: 'Roboto', sans-serif;
