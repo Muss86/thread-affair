@@ -1,0 +1,66 @@
+.product-tile {
+  margin-bottom: 70px;
+
+  .product-tile-image {
+    position: relative;
+    margin-bottom: 24px;
+
+    img {
+      width: 100%;
+    }
+
+    .product-tile-badge {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+    }
+  }
+
+  .product-tile-info {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 16px;
+  }
+
+  .product-tile-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+
+    span:first-child {
+      color: $black;
+      font-weight: 500;
+    }
+
+    span:nth-of-type(2) {
+      font-weight: 500;
+    }
+  }
+
+  .product-tile-subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .product-tile-pricing {
+    margin-top: 16px;
+    text-align: center;
+
+    .product-price-regular {
+      font-size: 18px;
+      font-weight: 300;
+      display: block;
+      text-decoration: line-through;
+    }
+
+    .product-price {
+      font-size: 24px;
+
+      & > span {
+        color: $brand-primary;
+        font-weight: 400;
+      }
+    }
+  }
+}

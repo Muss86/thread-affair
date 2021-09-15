@@ -1,0 +1,21 @@
+@import './home-banner';
+@import './home-catalog-preview';
+.content-header {
+  margin-bottom: 70px;
+}
+
+.content-main {
+  section {
+    // .home-page /content-main section
+    .home-page & {
+      margin-bottom: 70px;
+
+      & > h1 {
+        font-size: 24px;
+        color: $brand-primary;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

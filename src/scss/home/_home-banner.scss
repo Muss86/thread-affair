@@ -1,0 +1,50 @@
+.home-banner {
+  position: relative;
+
+  .content-banner {
+    img {
+      width: 100%;
+    }
+  }
+
+  .home-banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+      font-size: 49px;
+    }
+
+    h2 {
+      font-size: 27px;
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+
+    p {
+      position: absolute;
+      font-size: 18px;
+      font-weight: 300;
+      bottom: 70px;
+      width: 210px;
+
+      span {
+        font-size: 24px;
+        display: block;
+      }
+
+      &:nth-of-type(2) {
+        display: none;
+      }
+    }
+  }
+}

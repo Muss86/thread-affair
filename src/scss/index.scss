@@ -25,6 +25,8 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 
 // start project
 @import './shared/index';
+@import './home/index';
+@import './catalog/index';
 
 body {
   font-family: 'Roboto', sans-serif;
