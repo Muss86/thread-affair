@@ -1,5 +1,9 @@
 @import './home-banner';
 @import './home-catalog-preview';
+@import './home-newsletter';
+@import './home-social';
+@import './home-payment';
+
 .content-header {
   margin-bottom: 70px;
 }
@@ -15,6 +19,17 @@
         color: $brand-primary;
         text-align: center;
         text-transform: uppercase;
+
+        @include media-breakpoint-up('lg') {
+          font-size: 30px;
+          font-weight: 500;
+          color: $black;
+
+          span {
+            font-weight: 300;
+            text-transform: initial;
+          }
+        }
       }
     }
   }

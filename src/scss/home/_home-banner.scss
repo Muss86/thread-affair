@@ -20,6 +20,10 @@
     flex-direction: column;
     text-align: center;
 
+    @include media-breakpoint-up('lg') {
+      align-items: flex-start;
+    }
+
     h1 {
       font-size: 49px;
     }
@@ -37,9 +41,20 @@
       bottom: 70px;
       width: 210px;
 
+      @include media-breakpoint-up('lg') {
+        font-size: 14px;
+        bottom: 15px;
+        width: auto;
+        text-align: left;
+      }
+
       span {
         font-size: 24px;
         display: block;
+        @include media-breakpoint-up('lg') {
+          font-size: 14px;
+          display: inline;
+        }
       }
 
       &:nth-of-type(2) {

@@ -6,11 +6,33 @@
     display: flex;
     align-items: center;
     font-size: 30px;
+
+    @include media-breakpoint-up('lg') {
+      flex-direction: row-reverse;
+    }
   }
 
   li {
     &:last-of-type {
       margin-left: 8px;
+    }
+  }
+
+  .cart-controls {
+    position: relative;
+
+    .cart-qty {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-color: $brand-primary;
+      color: $white;
+      border-radius: 50%;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      right: -2px;
+      top: -2px;
     }
   }
 }

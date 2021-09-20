@@ -1,8 +1,10 @@
 .header {
-  margin-top: 24px;
+  margin: 24px auto;
   text-align: center;
 }
 
 @import './header-search';
 @import './header-controls';
 @import './logo';
+@import './header-contact';
+@import './header-nav';

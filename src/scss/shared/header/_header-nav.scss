@@ -1,0 +1,27 @@
+.header-nav {
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 6px;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 20px;
+    color: $gray-primary;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s linear, color 0.2s linear;
+    border-radius: 32px;
+
+    &:hover {
+      color: $white;
+      background-color: $brand-primary;
+    }
+  }
+}
